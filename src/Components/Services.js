@@ -10,7 +10,7 @@ const Services = () => {
     }, [])
     return (
        
-        <div style={{padding: '15px'}}>
+        <div style={{padding: '15px '}}>
             {
                 svf.map((sf, index) => <Service sf={sf} key={index}></Service>)
             }
